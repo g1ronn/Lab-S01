@@ -19,3 +19,9 @@ EXERCICIO 3:
   40 PRINT "Temperatura em Celsius: " + celsius
   50 PRINT "Temperatura em Kelvin: " + kelvin
   60 PRINT "Temperatura em Fahrenheit: " + fahrenheit
+
+EXERCICIO 4:
+10 INPUT "Digite a altura (em metros): "; altura
+20 INPUT "Digite o peso (em kg): "; peso
+30 LET imc = peso / (altura * altura)
+40 PRINT "O IMC calculado é: " + imc
