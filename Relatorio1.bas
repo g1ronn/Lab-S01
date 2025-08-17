@@ -10,3 +10,12 @@ EXERCICIO 1:
 90 PRINT "Nova media = " + novaMedia
 100 IF novaMedia >= 50 THEN PRINT "Aprovado pela NP3" ELSE PRINT "Reprovado na NP3"
 110 END
+
+
+EXERCICIO 3:
+  10 INPUT "Digite a temperatura em Celsius: "; celsius
+  20 kelvin = celsius + 273
+  30 fahrenheit = (celsius * 9 / 5) + 32
+  40 PRINT "Temperatura em Celsius: " + celsius
+  50 PRINT "Temperatura em Kelvin: " + kelvin
+  60 PRINT "Temperatura em Fahrenheit: " + fahrenheit
