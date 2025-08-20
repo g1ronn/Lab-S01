@@ -11,6 +11,17 @@ EXERCICIO 1:
 100 IF novaMedia >= 50 THEN PRINT "Aprovado pela NP3" ELSE PRINT "Reprovado na NP3"
 110 END
 
+EXERCICIO 2:
+10 RANDOMIZE = TIMER
+20 NUM = INT(RND * 101)
+30 PRINT "Tente adivinhar o número entre 0 e 100:"
+40 INPUT "Digite seu palpite: "; PALPITE
+50 IF PALPITE = NUM THEN GOTO 60
+55 PRINT "Você errou, tente novamente"
+56 GOTO 40
+60 PRINT "Parabéns! Você acertou o número!"
+70 END
+
 
 EXERCICIO 3:
   10 INPUT "Digite a temperatura em Celsius: "; celsius
